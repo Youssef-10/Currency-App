@@ -1,0 +1,110 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  border: 1px solid;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+.container .header {
+  width: 100%;
+  border-bottom: 3px solid #4681f4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.stamp {
+  font-size: 20px;
+  text-align: center;
+}
+.stamp .date {
+  margin-bottom: 10px;
+  border-bottom: 1px solid;
+  padding-bottom: 10px;
+}
+.app {
+  padding-top: 30px;
+}
+.app #number {
+  width: 250px;
+  height: 30px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  caret-color: #4681f4;
+  outline: none;
+}
+
+.app .selectBox > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.app .selectBox select {
+  width: 200px;
+  height: 30px;
+}
+
+.app .selectBox {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-bottom: 20px; */
+}
+
+p {
+  font-size: 20px;
+  border-top: 3px solid #4681f4;
+  padding-top: 15px;
+  margin-bottom: 70px;
+  margin-top: 8px;
+}
+.none {
+  display: none;
+}
+.money-user,
+.money-transfer {
+  font-weight: bold;
+  margin: 0 8px;
+  color: #4681f4;
+}
+.app .button {
+  text-align: right;
+}
+.app button {
+  width: 100px;
+  border: none;
+  outline: none;
+  background-color: #4681f4;
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+}
+.footer > span {
+  color: #4681f4;
+  font-weight: bold;
+}

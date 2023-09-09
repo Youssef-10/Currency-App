@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Currency App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Currency App</h1>
+        <div class="stamp">
+          <div class="date">
+            Date: <span class="day"></span> <span class="month"></span>
+            <span class="year"></span>
+          </div>
+          <div class="time">
+            Time: <span class="hour"></span>: <span class="min"></span> :
+            <span class="sec"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="app">
+        <input type="number" id="number" placeholder="Enter Your Money.." />
+        <div class="selectBox">
+          <div class="from">
+            <label for="from">From:</label>
+            <select id="from">
+              <option value="USD" selected>USD</option>
+            </select>
+          </div>
+          <div class="to">
+            <label for="to">To:</label>
+            <select id="to">
+              <option value="EGP" selected>EGP</option>
+              <option value="USD">USD</option>
+            </select>
+          </div>
+        </div>
+        <div class="button">
+          <button id="btn">Transfer</button>
+        </div>
+      </div>
+      <p>
+        <span class="money-user"></span>
+        <span class="currency1"></span> <span class="none">Equals</span>
+        <span class="money-transfer"></span>
+        <span class="currency2"></span>
+      </p>
+      <div class="footer">
+        Developed With <span>&lt3</span> By <span>Youssef</span>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
